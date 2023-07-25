@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google</title>
+  <style>
+    /* CSS styles for the Google homepage */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+    }
+    
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 100px 20px;
+      text-align: center;
+    }
+    
+    .logo {
+      margin-bottom: 20px;
+    }
+    
+    .search-form {
+      display: flex;
+      justify-content: center;
+    }
+    
+    .search-input {
+      width: 400px;
+      height: 40px;
+      padding: 5px;
+      font-size: 18px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    
+    .search-buttons {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+    }
+    
+    .search-button {
+      margin-right: 10px;
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #f2f2f2;
+      border: none;
+      cursor: pointer;
+    }
+    
+    .search-button:hover {
+      background-color: #e6e6e6;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo" class="logo">
+    <form action="https://www.google.com/search" method="GET" class="search-form">
+      <input type="text" name="q" class="search-input" autofocus>
+    </form>
+    <div class="search-buttons">
+      <input type="submit" value="Google Search" class="search-button">
+      <input type="submit" value="I'm Feeling Lucky" class="search-button">
+    </div>
+  </div>
+</body>
+</html>
